@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+/* @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap'; */
 * {
 	padding: 0;
 	margin: 0;
@@ -7,10 +7,14 @@
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Shadows Into Light', cursive; */
+
 	scroll-behavior: smooth;
 }
 a {
 	text-decoration: none;
+	border-radius: 20px;
+	/* background-color: white; */
 }
 .container {
 	min-height: 100vh;
